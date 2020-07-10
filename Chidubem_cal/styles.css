@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 240px;
+    margin: 100px auto;
+    height: auto;
+    border: 2px solid gainsboro;
+    background-color: gainsboro;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+}
+
+.display{
+    width: 90%;
+    margin: 30px auto 10px;
+    height: 40px;
+    
+    border: 2px solid gainsboro;
+    background-color: honeydew;
+    border-radius: 5px;
+}
+
+.keypad{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.keypad .num {
+   width: 33px;
+   height: 33px;
+   text-align: center;
+   line-height: 2.1;
+   border: 1px snow solid;
+   display: inline-grid;
+    display: -moz-inline-grid;
+    margin: 8px ;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.symbol{
+    background-color: #f08f2f !important;
+    color: #fff;
+    font-size: 22px !important; 
+    line-height: 1.6 !important;
+
+}
+.symbol2{
+    background-color: #2f4cf0 !important;
+    color: #fff;
+    font-size: 20px !important; 
+    line-height: 1.6 !important;
+
+}
